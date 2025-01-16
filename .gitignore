@@ -1,0 +1,11 @@
+/plugins/*
+!/plugins/custom-api
+/themes/*
+!/themes/foodpark
+
+cache
+languages
+uploads
+uploads-webpc
+.htaccess
+index.php
