@@ -11,7 +11,8 @@ add_action( 'rest_api_init', function() {
 
 function get_restaurants() {
   $posts = get_posts([
-    'post_type' => 'restaurants'
+    'post_type' => 'restaurants',
+    'posts_per_page' => -1,
   ]);
 
   $data = [];

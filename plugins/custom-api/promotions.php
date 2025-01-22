@@ -12,6 +12,7 @@ add_action( 'rest_api_init', function() {
 function get_promotions() {
   $posts = get_posts([
     'post_type' => 'promotions',
+    'posts_per_page' => -1,
   ]);
 
   $data = [];
