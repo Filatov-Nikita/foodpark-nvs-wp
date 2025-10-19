@@ -68,6 +68,8 @@ function get_home() {
       'url' => $fields['video']['url'],
       'width' => $fields['video']['width'],
       'height' => $fields['video']['height'],
+      'webm_url' => $fields['video_webm']['url'],
+      'poster_url' => $fields['video_poster']['url'],
     ],
   ];
 
