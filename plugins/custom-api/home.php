@@ -31,6 +31,7 @@ function get_home() {
     'tekst_na_knopke' => $fields['tekst_na_knopke'],
     'vremya_raboty' => $fields['vremya_raboty'],
     'ssylka_na_telegram' => $fields['ssylka_na_telegram'],
+    'ssylka_na_dzen' => $fields['ssylka_na_dzen'],
     'address' => $fields['address'],
     'foodpark_map_href' => $fields['foodpark_map_href'],
     'phone' => $fields['phone'],
